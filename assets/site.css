@@ -1,0 +1,77 @@
+/* Kevin Kam brand: warm & minimal, coral accent. Mirrors Brand.swift in the apps. */
+:root {
+  --bg: #FFF8F0;
+  --surface: #FFFFFF;
+  --ink: #2B201A;
+  --ink-secondary: #7A6A5F;
+  --coral: #F46A3A;
+  --gradient: linear-gradient(135deg, #FF9F6E, #F46A3A);
+  --shadow: rgba(180, 100, 60, 0.14);
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1B1613;
+    --surface: #2A221D;
+    --ink: #F6ECE3;
+    --ink-secondary: #B3A396;
+    --shadow: rgba(0, 0, 0, 0.14);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.55 ui-rounded, "SF Pro Rounded", system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main { max-width: 640px; margin: 0 auto; padding: 32px 16px 48px; }
+
+header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+header .icon { width: 64px; height: 64px; border-radius: 22.5%; flex: none; }
+header .lang { margin-left: auto; font-size: 15px; }
+
+h1 { font-size: 28px; line-height: 1.2; font-weight: 800; margin: 0; }
+h2 { font-size: 20px; line-height: 1.3; font-weight: 700; margin: 0 0 8px; }
+.subtitle { color: var(--ink-secondary); margin: 2px 0 0; }
+
+.card {
+  background: var(--surface);
+  border-radius: 28px;
+  padding: 20px 24px;
+  margin: 16px 0;
+  box-shadow: 0 8px 24px var(--shadow);
+}
+.card > :last-child { margin-bottom: 0; }
+
+p, ul { margin: 0 0 12px; }
+ul { padding-left: 20px; }
+
+a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--coral);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+a.button {
+  display: inline-block;
+  background: var(--gradient);
+  color: #FFFFFF;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  overflow-wrap: anywhere;
+}
+
+footer { color: var(--ink-secondary); font-size: 15px; text-align: center; margin-top: 32px; }
+footer p { margin: 4px 0; }
+footer a { color: var(--ink-secondary); }

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="signature" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9F6E"/>
+      <stop offset="1" stop-color="#F46A3A"/>
+    </linearGradient>
+  </defs>
+  <g id="background">
+    <rect width="1024" height="1024" fill="url(#signature)"/>
+  </g>
+  <g id="pin">
+    <path fill="#FFF8F0" d="M473.9 828.6L301.5 596A262 262 0 1 1 722.5 596L550.1 828.6Q512 880 473.9 828.6Z"/>
+  </g>
+  <g id="monogram" fill="none" stroke="#F46A3A" stroke-width="50" stroke-linecap="round" stroke-linejoin="round">
+    <path id="W" d="M340 364L378 516L420 408L462 516L500 364"/>
+    <path id="C" d="M690.8 385.3A76 76 0 1 0 690.8 494.7"/>
+  </g>
+</svg>
