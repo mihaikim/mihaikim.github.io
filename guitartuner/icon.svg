@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <g id="tile"><rect width="1024" height="1024" fill="#F46A3A"/></g>
+  <g id="mark" transform="translate(174 174) scale(6.76)">
+    <path id="pick" d="M50 90 C42 90 16 56 16 36 C16 18 31 10 50 10 C69 10 84 18 84 36 C84 56 58 90 50 90 Z" fill="#FFF8F0"/>
+    <path id="tick" d="M45.5 26.5 A4.5 4.5 0 0 1 54.5 26.5 V47.5 A4.5 4.5 0 0 1 45.5 47.5 Z" fill="#F46A3A"/>
+  </g>
+</svg>
